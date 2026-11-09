@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="bharatcode_companion"
+version="0.1.0"
+displayName="BharatCode Companion"
+authors="BharatCode"
+description='''Early-game summoning charm and one persistent, owner-bound companion. M1 foundation only; no AI, world edits, inventory, or storage.'''
+
+[[dependencies.bharatcode_companion]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.bharatcode_companion]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"

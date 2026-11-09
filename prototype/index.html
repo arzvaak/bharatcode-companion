@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rowan's fieldbook — NPC interface prototype</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header class="top"><div><h1>Rowan's fieldbook</h1><p>Companion controls <span class="dot">•</span> Owner: You</p></div><div class="demo">PROTOTYPE <span>Illustrative data · no game connection</span></div></header>
+  <nav aria-label="Interface screens" id="nav">
+    <button data-screen="jobs" class="active" aria-current="page">Jobs & inventory</button><button data-screen="build">Build preview</button><button data-screen="blueprints">Blueprints</button><button data-screen="production">Production</button><button data-screen="settings">Companion</button>
+  </nav>
+  <div class="notice">Demo only: no Minecraft actions, API calls, files, or compatibility checks are performed.</div>
+  <main id="content"></main>
+  <footer><span>ROWAN <span class="light">·</span> Owner online <span class="light">·</span> Work zone: Meadow</span><span>Changes last only for this page session</span></footer>
+</div>
+<script src="app.js"></script>
+</body></html>

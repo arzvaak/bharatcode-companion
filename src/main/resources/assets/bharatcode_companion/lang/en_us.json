@@ -1,0 +1,14 @@
+{
+  "item.bharatcode_companion.summoning_charm": "Summoning Charm",
+  "entity.bharatcode_companion.companion": "Companion",
+  "message.bharatcode_companion.summoned": "Companion summoned.",
+  "message.bharatcode_companion.recalled": "Companion recalled.",
+  "message.bharatcode_companion.dismissed": "Companion dismissed.",
+  "message.bharatcode_companion.recall_pending": "Your companion is out of range; recalling it. This may take a moment.",
+  "message.bharatcode_companion.recall_timeout": "Your companion could not be reached in time; it is still active at its last known location.",
+  "message.bharatcode_companion.no_companion": "No companion is currently summoned.",
+  "message.bharatcode_companion.state_error": "Companion state is inconsistent; no change was made. Check the server log.",
+  "message.bharatcode_companion.data_unavailable": "Companion data is unreadable or from an unknown version; no change was made.",
+  "message.bharatcode_companion.wrong_dimension": "Your companion is in another dimension; dismiss it before summoning it here.",
+  "message.bharatcode_companion.no_safe_place": "No safe space is available beside you; your companion was not moved."
+}
